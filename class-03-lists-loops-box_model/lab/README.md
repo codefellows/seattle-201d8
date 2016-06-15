@@ -6,7 +6,6 @@ It can be very handy to take notes and sketch things out when you are planning y
 
 ### User Stories (MVP... what you must do as a minimum)
 
-- As a developer, to keep my work organized, I want to make a new Git branch for the development work for each new question I create. I can then merge these branches into the master branch via pull requests on GitHub *as each question is finished*.
 - As a developer, I want to use thoughtful and descriptive console.log() throughout my code to help test my work and assist with debugging.
 - As a developer, I want to convert some of my appropriate biographical elements into unordered lists, such as my education summary and/or my work experience.
 - As a developer, I want to consider the user experience (UX) of my About Me and guessing game, trying to view it through the eyes of a user. Wait... maybe I should just write a user story for that...
@@ -31,15 +30,13 @@ for (var i = 0; i < numberOfQuestions; i++) {
 ```
 
 ### Technical Requirements
-
-- In your GitHub repo, do your work on at least three separate branches (one for each added question and one for the part that implements the vote tally) and give those branches meaningful names indicating the work that is being done in them, for instance `sixth-question`, `seventh-question`, etc.
 - Per the user stories, you will need to include in your HTML at least one each of an ordered and an unordered list.
 - Do not use any 'switch' statements in your JavaScript.
 - Expect that you will probably need both 'for' and 'while' structures for your sixth and seventh questions. But not necessarily.
 
 ### Submitting Your Assignment
 
-- Submit the link to your latest pull request (PR) on GitHub for this project.
+- Submit the link to your GitHub repo for this project.
 - Add a comment to this Canvas submission with answers to the following questions.
   - How did this go, overall?
   - What observations or questions do you have about what you've learned so far?

@@ -58,21 +58,21 @@ if ('something is true') {
 
 var samsPets = ['Buddy', 'Alistair', 'Trillian', 'Demi', 'Parker'];
 //
-// for (var i = 0; i <  samsPets.length; i++) {
-//   console.log(samsPets[i]);
-// }
+for (var i = 0; i < samsPets.length; i++) {
+  console.log(samsPets[i]);
+}
 
 // p.176 	Using ‘while’ loops
-// var nadia = 0;
-// while (nadia !== 26) {
-//   var nadia = parseInt(prompt('How old is Nadia?'));
-// }
-// console.log('Nadia is awesome');
+var nadia = 0;
+while (nadia !== 26) {
+  var nadia = parseInt(prompt('How old is Nadia?'));
+}
+console.log('Nadia is awesome');
 
-// var counter = 0;
-// while(counter < samsPets.length) {
-//   console.log(samsPets[counter]);
-//   counter += 1;
-// }
+var counter = 0;
+while(counter < samsPets.length) {
+  console.log(samsPets[counter]);
+  counter += 1;
+}
 
 // p.177 	Using ‘do...while’ loops */
