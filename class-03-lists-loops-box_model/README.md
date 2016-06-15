@@ -13,7 +13,7 @@
 ####Schedule for today
 
 - [Code Review](#codereview) *[30 minutes]*
-- [Learning Journal](#learningjournal) *[10 minutes]*
+- [Learning Journal](#learningjournal) *[15 minutes]*
 - [JS Control Flow](#control) *[45 minutes]*
 - **15 minute break**
 - [CSS Box Model](#box) *[45 minutes]*
