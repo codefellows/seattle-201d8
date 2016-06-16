@@ -1,0 +1,44 @@
+* {
+  color: purple;
+  border: 1px solid black;
+}
+
+body {
+  background-color: green;
+}
+p {
+  color: red;
+  /*display: inline;*/
+  width: 50%;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+ul {
+  color: green;
+  border: 5px;
+  display: inline;
+}
+
+li {
+  color: blue;
+  /*margin: 100px;*/
+  display: inline;
+}
+
+.one {
+  font-family: Arial;
+}
+
+.two {
+  background-color: lightgray;
+}
+
+.three {
+  background-color: yellow;
+}
+
+img {
+  display: block;
+  margin: 0px auto;
+}
