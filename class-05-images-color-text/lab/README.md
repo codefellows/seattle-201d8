@@ -1,6 +1,6 @@
 # Assignment Overview: Lab for Class 5
 
-There are two parts to your lab assignment, and each is in a different assignment in Canvas:
+There are two parts to your lab assignment, and each is in a ***separate assignment in Canvas***:
 
 ### First Part: Over the weekend
 
@@ -10,30 +10,19 @@ One of them is a weekend project: put finishing touches on your About Me project
 
 ### Second Part: In lab today
 
-Today in lab you will create a new GitHub repo, and pair-program the solutions to some little code problems.
+Today in lab you will create a new GitHub repo, and write the solutions to some code problems.
 
 **Be sure to follow instructions carefully.**
 
 Here are a couple of things to keep in mind:
 
 * Place no function calls in your code, unless inside of another function. Everything should be run by hand from the console. This is to give you additional practice using the console and practice efficient app-switching processes.
-* Create a new branch for each code problem, and merge each branch into *master* when the problem is completed. Do the problems in order. Don't forget to pull the new master branch from GitHub into your local master branch each time, before creating the branch for the next problem.
+* **Create a new branch for each code problem**, and merge each branch into *master* when the problem is completed. This is to give you practice with GitHub branches Do the problems in order. Don't forget to pull the new master branch from GitHub into your local master branch each time, before creating the branch for the next problem.
 
----
-### Create, fork, and clone a new GitHub repo named class-05-lab
-- Navigator creates the repo
-- Navigator clones the repo
-- Driver forks the repo
-- Driver clones their fork
-- Driver copy/pastes starter code
-- Driver edits code
-- Driver a-c-p
-- Driver makes PR
-- Navigator accepts PR
-- Both partners pull from master
+To get started, create and clone a new GitHub repo named ***class-05-lab***
 
 ---
 ### HTML and JS setup
-You are being given starter code for today, in the index.html and app.js files inside of this directory.
+You are being given starter code for today, in the index.html and app.js files inside of this directory. Your instructions are in the JS file.
 
-Submission instructions are in the Canvas assignment.
+Submission instructions are in the Canvas assignment, as per usual.

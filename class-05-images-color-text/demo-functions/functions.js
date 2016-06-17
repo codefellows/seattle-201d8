@@ -1,4 +1,4 @@
-// April 14
+// June 17
 // Sam's functions demo
 
 //WHAT IS A FUNCTION?
@@ -60,7 +60,7 @@ function mathsAreHard(numOne, numTwo, numThree) {
   var sum = numOne + numTwo + numThree;
   // console.log('The sum of these numbers is ' + sum);
   return sum;
-  console.log('IF this shows I will give Nadia $1000');
+  // console.log('IF this shows I will give Nadia $1000');
 }
 
 // console.log(mathsAreHard(2, 5, 9));
@@ -81,7 +81,7 @@ function mathsGetHarder(numOne, numTwo, numThree) {
 }
 
 // var numOne = 99999;
-// console.log(mathsGetHarder(9, 5, 3) + ' is the output of mathsGetHarder(9, 5, 3)');
+// console.log(mathsGetHarder(9, 5, 3) + ' is the output of mathsGetHarder(9, 5, 3)'');
 
 // ++++++++++++++++++++++++++++++++++++++++
 
