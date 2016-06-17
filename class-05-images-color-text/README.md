@@ -12,7 +12,7 @@
 	- **Reminder:** Weekly surveys will go out to students in email today. Your survey responses are very helpful and meaningful to us. Feedback is a gift.
 	- Let's take a moment to talk about July 4th, because it affects us. It lands on the first day of Project Week. Basically, we can handle that day however we want.
 
-### Today's Schedule!
+### Today's Schedule
 - Quiz review and announcements [15 minutes]
 - Code Review with Brian *[45 minutes]*
 - [More CSS with Brian](#css) *[75 minutes]*
