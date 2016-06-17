@@ -28,7 +28,7 @@ A few things to keep in mind:
 
 ### 3/19: Do you want to center all the things?
 
-`margin: 0px auto;`
+`margin: 0px auto;` centers an element in its container.
 
 *"Setting the `width` of a block element will prevent it from stretching out to the left/right edges of its container. Then, you can set the left and right margins to `auto` to horizontally center that element within its container. The element will take up the width you specify, then the remaining space will be split evenly between the two margins."*
 
@@ -94,40 +94,127 @@ Note this declaration on the `img`: `margin: 0 0 1em 1em;` We need to unpack som
 
 *"The clear property is important for controlling the behavior of floats."*
 
+This is tricky. If you float an element, and want to make sure that an adjacent **element** does not overlap it (remember... text will flow around the `float`, but other elements will not), apply a `clear` to the adjacent element to prevent the overlap.
 
+Usual box model rules (margin, border, padding) still apply.
 
 ---
 
 ### 11/19: The `clearfix` hack
 
+Nothing pretty about this. Say you have an image (or an element with a specified height) that needs to be displayed at a certain size, and also that it needs to be floated inside of another element to serve the overall layout and flow of text. But... the image is taller than the container, so it overflows from the container. Applying a 'clearfix' class like this...
+
+`.clearfix { overflow: auto; }`
+
+...to the container will force the container to be no shorter than the element that is floated inside of it.
+
 ---
 
 ### 12/19: `float` layout example
+
+Yes, it's possible to build layout schemes based on the `float` property. Heck, we used to use HTML tables for layout not too long ago:
+
+`<body>`
+
+`<table>`
+
+`<tr>Here's the header and nav!</tr>`
+
+
+`<tr>Now some content in the body</tr>`
+
+`<tr>`
+
+`<td>Always.</td>`
+
+`<td>Three.</td>`
+
+`<td>Columns.</td>`
+
+`</tr>`
+
+`<tr>Footer time</tr>`
+
+`</table>`
+
+`</body>`
+
+
+And we also rode in horse-drawn carriages on our way to get medical treatments that involved the application of leeches.
+
+We still take carriage rides for fun sometimes (maybe because we like front-row seats for pooping horses?), but do not use them as our daily transit.
+
+Such is the case with `float`-based layouts. They have fallen out of favor given the increasing concerns toward layouts that are friendly toward mobile devices (`flex` FTW). We have better tools now. You'll see.
 
 ---
 
 ### 13/19: Percent `width`
 
+This makes images/elements behave nicely in a layout on different size displays. And, you can apply `min-width` and `max-width` for even greater control.
+
+This is a useful property to get familiar with.
+
 ---
 
 ### 14/19: Media queries
+
+*"Responsive Design" is the strategy of making a site that "responds" to the browser and device that it is being shown on... Media queries are the most powerful tool for doing this."*
+
+Most displays for desktop computers are wider than they are tall. However, most mobile displays are taller than they are wide. Media queries respond to the pixel width of the display, and typically convert all elements to block layout once a minimum window width has been detected.
 
 ---
 
 ### 15/19: `inline-block`
 
+*You can create a grid of boxes that fills the browser width and wraps nicely. `inline-block` elements are like `inline` elements but they can have a width and height. Let's look at examples of both approaches.*
+
+With all other inline elements (text, \<img>, \<span>, \<button>, and form elements being the most common) the size of the content determines the size of the element. These inline elements can receive the standard box model size adjustments (margin, padding, border) but generally behave like containers of a specific size.
+
+With `inline-block`, however, we can make boxes with a defined width and height, then adjust them via the box model and give them content, including child elements.
+
 ---
 
 ### 16/19: `inline-block` layout
+
+It is possible to do full-page layout with `inline-block`, but note that there are some finicky characteristiccs:
+
+- `inline-block` elements are affected by the `vertical-align` property, which you probably want set to top.
+- You need to set the width of each column
+- There will be a gap between the columns if there is any whitespace between them in the HTML
+
+Generally, there are more modern and better ways to handle this kind of layout.
 
 ---
 
 ### 17/19: `column`
 
+It is possible to make text (within a container, obviously) display in multiple columns.
+
+Note that this tutorial indicates that the browser prefixes need to be used, which is typical when new CSS features are rolling out. You probably do not need to use the prefixes with `column` at this point, but doing so makes your code compatible with more devices.
+
 ---
 
 ### 18/19: `flexbox`
 
+`flexbox` is also a fairly recent CSS feature, and although much of what you read about it will caution you about its compatibility, [it now works just fine in most browsers](http://caniuse.com/#search=flexbox).
+
+**[This site](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)** is probably the single best resource for learning `flexbox`. The key thing to remember is that there are different properties for the parent container and the children that define the behaviors and relationships.
+
+As you'll see from the demos in the tutorial, `flexbox` is quite powerful and flexible. It is important to remember that as great as it is to work with `flexbox` (vertical centering FTW!), your skill level in CSS layout will ultimately be determined by your command of the key fundamental principles:
+
+- The CSS box model
+- Block vs. inline
+- Normal flow vs. relative
+- The basics of absolute, fixed, and float
+
+One more thing with `flexbox`: take a look at [Flexbox Froggy](http://flexboxfroggy.com)
+
 ---
 
 ### 19/19: CSS frameworks
+
+Imagine if someone built a CSS template that you could easily manipulate and just put content into... a template that would set up your basic styles and layouts?
+
+Well, lots of someones have done that, and there's a lot of CSS frameworks out there. At this stage in your development, you'll hinder your growth by relying on CSS frameworks to do your work for you. You need to understand how things work. That said, you should go look at some of the ones listed in this tutorial, and also take a look at Skeleton, which is a personal favorite.
+
+**Note:** You are not allowed to use CSS frameworks for your work in this course, and I expect that their use is strongly discouraged in Code 301. But by the time you get to 401, you can use them.

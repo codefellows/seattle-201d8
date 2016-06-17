@@ -1,4 +1,4 @@
-// April 14
+// June 17
 // Sam's functions demo
 
 //WHAT IS A FUNCTION?
@@ -39,7 +39,7 @@ function clue(who, where, weapon) {
 
 // Think of the parameter names as variables that belong only to the function. The names do not have any meaning outside of the function.
 
-// Note that we can also pass in the values of externally declared variables when the function is called:
+// Note that we can also pass in the values of externally declared variables when the function is CALLED:
 
 var murderer = 'Colonel Mustard';
 var crimeScene = 'library';
