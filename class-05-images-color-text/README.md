@@ -3,6 +3,8 @@
 
 #### We will start today by going over Quiz 1, which was due last night.
 
+#### Reminder: Quiz 2 is due at 11:59pm tonight.
+
 #### Quiz 3 will be published tonight (Friday) and will be due late Sunday night.
 
 - Announcements
@@ -13,8 +15,8 @@
 ### Today's Schedule
 - Quiz review and announcements [15 minutes]
 - Code Review with Brian *[45 minutes]*
-- **break**
 - [More CSS with Brian](#css) *[75 minutes]*
+- - **break**
 - [Git Branching (Sam)](#git) *[30 minutes]*
 - [More on Functions, and Lab Overview (Nick & Sam)](#functions) *[45 minutes]*
 
