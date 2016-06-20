@@ -4,7 +4,7 @@
 - Announcements
   - We will review Quiz 2 and Quiz 3 tomorrow
 - Go over student surveys *[15 minutes]*
-[Code review/discussion](#code) *[15 minutes]*
+- [Code review/discussion](#code) *[15 minutes]*
 - [Go over the domain modeling readings (Nick)](#modeling) *[30 minutes]*
 - [The Document Object Model (Brian)](#dom) *[45 minutes]*
 - [Object literals + lab prep (Sam)](#objects) *[75 minutes]*
