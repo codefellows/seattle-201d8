@@ -10,7 +10,7 @@ Your code will end up with probably 1/4 the number of lines it had before refact
 
 See pages 106-109 in your textbook for a constructor example... and especially focus on 108 and 109. Also refer to the demo code from class that showed how we can view a constructor function as a translation of an object literal.
 
-## Replace the Lists with Tables
+## Replace the Lists with Table
 
 We will also be replacing the lists of data for each store, and building a single table of data instead! Tables are much easier to read than lists, and presenting data in a table makes analysis more intuitive and comprehensive.
 
@@ -19,7 +19,7 @@ What numbers should go into a table? Your client, Pat, has reviewed the lists of
 - A table to show the total amount of projected cookie needs at each location, with the table displaying the cookie stand location, the total number of cookies needed for each location, an hourly breakdown of total cookies sales for each location, and [STRETCH GOAL] a row of totals for each column.
 - Here's what it should look like, in general (this example is for structural purposes, not formatting, since you can style however you want):
 
-### Beans Needed By Location Each Day
+### Cookies Needed By Location Each Day
 
 |               | Daily Location Total | 6:00am | 7:00am | 8:00am | 9:00am | 10:00am | 11:00am | 12:00pm | 1:00pm | 2:00pm | 3:00pm | 4:00pm | 5:00pm | 6:00pm |
 |------------------------|-------|--------|--------|--------|--------|---------|---------|---------|--------|--------|--------|--------|--------|--------|
