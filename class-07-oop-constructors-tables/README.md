@@ -13,11 +13,13 @@
 
 - [Review of Yesterday](#codereview) *[30-45 minutes]*
 
-- [Constructor functions + lab overview](#code) *[60 minutes]*
+- [Constructor functions](#code) *[60 minutes]*
 
 *15-minute break*
 
-- [HTML Tables](#tables) *[30-45 minutes]*
+- [HTML Tables](#tables) *[45-60 minutes]*
+
+- [Lab overview](#lab) *[30-45 minutes]*
 
 ## Readings
 
