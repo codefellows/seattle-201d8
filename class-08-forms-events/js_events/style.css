@@ -1,0 +1,20 @@
+#click-me {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  width: 110px;
+  text-align: center;
+}
+
+#click-me:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.3);
+}
