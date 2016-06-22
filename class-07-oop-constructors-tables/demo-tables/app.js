@@ -85,7 +85,6 @@ for (var i = 0; i < allCats.length; i++){
   allCats[i].render();
 }
 
-
 // var catDataArray = [];
 // for(var i = 0; i < allCats.length; i++) {
 //   var oneKitteh = [];
