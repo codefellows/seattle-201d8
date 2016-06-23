@@ -15,7 +15,7 @@ Here's your other tasks for today:
 	- The new input numbers need to be run through the calculation methods as with the original creation of the instances
 	- The individual rows will need `id` properties so that their values can be updated in place (or just build a mechanism to re-render the table but WITHOUT re-rolling the random numbers and changing the numbers for the rest of the locations)
 
-- Make a style guide, using [this one Brian made for Everlast](http://everlast.com/style-guide) as a model.
+- Make a style guide, using [this one that a team Brian was on made for Everlast](http://everlast.com/style-guide) as a model.
 
 - Make two additional pages:
 	- Mock up an order form that would be public facing (**store.html**) so that visitors to the website can order salmon cookies and swag. That form would need to receive all of the things you'd expect on an order form: name, address, payment info, products to order, quantities, special instructions, and so on.
