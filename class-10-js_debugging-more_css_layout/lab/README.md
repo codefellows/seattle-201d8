@@ -10,7 +10,7 @@ This will be a group-programming project, and you should take the following appr
 1. One member of the group sets up a repo on GitHub.
 2. Once this is done, go into the Settings tab of the repo and set the other members of the group as Collaborators.
 3. At this point, everyone can CLONE the repo. No need to fork it in this case. All of the collaborators have privileges to push to the repo and also to do merges.
-4. Each person in the group will do the bulk of the work on one of the pages, but there's going to be a lot of overlap with the CSS between the pages, too, so there needs to be some teamwork involved as well. How you manage that is up to you. We'll give some suggestions.
+4. Each person in the group will do the bulk of building the markup on one of the pages, but there's going to be a lot of overlap with the CSS between the pages, too, so there needs to be some teamwork involved as well. How you manage that is up to you. We'll talk about some suggestions.
 
 ---
 
@@ -74,6 +74,6 @@ OPTIONAL: Add some JavaScript functionality! Get creative, but make sure the sty
 
 ---
 
-Submit: You'll be committing regularly and working on branches for additional Git practice. Submit the link to your most recent pull request into the Canvas assignment.
+**Submit:** You'll be committing regularly and working on branches for additional Git practice. Submit the link to your most recent pull request into the Canvas assignment, and also a link to the deployment of the page that you built the HTML for.
 
 ### This assignment is due at 11:59p Sunday night!!!
