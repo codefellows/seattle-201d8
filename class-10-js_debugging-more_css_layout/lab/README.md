@@ -1,46 +1,66 @@
 # Assignment Overview: Lab for Class 10
-### DUE: Fri 5/20 at 11:59p
+### DUE: Sunday  6/26 at 11:59pm
 
-## Chocolate Pizza!!! Create a webpage from a provided design comp
+## Create a webpage from a provided design comp
 
-In lab today you will be building a single webpage based off of the provided design comp assets. This assignment is a lot of HTML and CSS, and not as much JS as we've been doing this week. In fact, you may choose to do this project with no JS at all, or just add some as a finishing touch.
+In lab today you will be building some webpages based off of the provided design comp assets. This assignment is a lot of HTML and CSS, and not as much JS as we've been doing this week. In fact, you may choose to do this project with no JS at all, or just add some as a finishing touch.
 
-This will be a pair-programming project, and you are free to set up whatever workflow you choose with your partner. There are multiple approaches that you can take:
+This will be a group-programming project, and you should take the following approach:
 
-- Both of you work on one computer the whole time
-- For the initial "getting things entered" phase work independently, for instance one of you gets the images linked in and the layout roughed out, and the other gets all of the text typed in. If you take this approach, make it easier on yourself by segregating the two work processes into totally separate areas of the HTML so that you do not step on each other's toes and cause merge conflicts
-- Maybe you split the work by each of you building a different section of the page that you can then unify later.
-- Or maybe you use some other approach that you come up with on your own
+1. One member of the group sets up a repo on GitHub.
+2. Once this is done, go into the Settings tab of the repo and set the other members of the group as Collaborators.
+3. At this point, everyone can CLONE the repo. No need to fork it in this case. All of the collaborators have privileges to push to the repo and also to do merges.
+4. Each person in the group will do the bulk of the work on one of the pages, but there's going to be a lot of overlap with the CSS between the pages, too, so there needs to be some teamwork involved as well. How you manage that is up to you. We'll give some suggestions.
 
 ---
-
-**GitHub Repository & Project Setup**
-
-Create a new repository for today called **chocolate-pizza**. If you're both going to be coding, have one user fork the other so that you can get some practice in your Git processes. Be sure to do frequent commits, and always do your work on branches. Before starting coding, think about a strategy for approaching this project. Before writing code, think about a practical order in which to do the work:
-- When should you focus on styling?
-- When should you make a decision about a layout scheme?
-- When should you just build out the structure of the HTML?
-- When you should you add JS?
-- How much time to allow for the Peter Griffin CSS tweaking?
 
 ***PLAN YOUR WORK AND WORK YOUR PLAN***
 
 ---
 
-**Assignment Overview**
+# Design Comp
 
-The assets (Base design comp and images) can be found in the adjacent ***lab-assets*** directory in this repo. Download these files and move the assets into your repo. The file "PREVIEW" contains an image of what you are striving to build in HTML and CSS, so be sure to open it up and keep it handy... ***but note that it is not for actual use on the page.*** You'll also be provided a paper copy of this image... it is suggested you use it to mark up and sketch out page structure and identify where the image assets need to be placed.
+In [layouts](./layouts) you will find PDFs for three pages of a site. Use your skills in HTML and CSS to build this site, with appropriate links between pages. Read thoroughly through the guidelines below. You may use the internet for help, however **any code that is not yours should be noted in your README.md**. Use this project as an opportunity to display your knowledge and abilities with Git by employing best practices in version control. Commit frequently with meaningful commit messages.
 
-All of the other image files are assets you will need to realize the design comp. It will be useful to make an inventory of them and where they will go on the page... but how you choose to manage and organize this inventory is up to your resourcefulness. It's best if you have a **plan** for how you'll manage this.
+### Fonts and Colors
 
-Suggestion: set up your work directory like this:
+#### Fonts
+- **Menu**: Droid Sans, Bold (Note: this is not one of the default fonts)
+- **Body**: Helvetica, Light
+- **Button Text**: Helvetica, Bold
 
-* index.html
-* style.css
-* app.js *(if you choose to use JS)*
-* img/   *(a directory that contains all of your image assets)*
+#### Colors
+- **Menu Text**: #878787
+- **Menu Text Selected**: #FFFFFF
+- **Menu Top Bar**: #000000
+- **Menu Top Bar Selected**: #E00000
+- **Menu Background**: #2D2D2D
+- **"Slider" circles**: #FFFFFF
+- **"Slider" text box**: #3A3A3A at 70% opacity
+- **Body Background**: #EAEAEA
+- **Body Text**: #FFFFFF when white, #000000 when black
+- **Body Text Box**: #3A3A3A
+- **Buttons**: #E00000
+- **Button Text**: #FFFFFF
+- **Footer**: #2D2D2D
 
-If you want to rename any of the image files, feel free to do so. The same goes for pretty much anything else you come up with as a way to do the work.
+
+### Guidelines
+
+- **YOU DO NOT NEED TO USE ANY JAVASCRIPT FOR THIS PROJECT.**
+- You can replace the cat images with whatever you want, as long as it's tasteful. Use good judgement. Placeholder images are fine. The current images came from [placekitten.com](http://www.placekitten.com)
+- You can replace the page text with whatever you want, however keep the subject matter throughout the site self-consistent, and again keep it tasteful *(in other words, Samuel L. Ipsum is not an appropriate choice)*.
+- Any links that would lead to external pages (e.g. social media sites) should just remain as either dead links (so, link to "#") or simply to the homepages of those sites (e.g. Facebook icon links to facebook.com). **There should be no other external links.**
+- You don't have to use the same exact social media icons used here, but they should be the same brands and be of an appropriate size.
+- The Contact form shouldn't actually submit data to anything. If you want to stretch into a little JavaScript, then when the Submit button is hit, log the information in the form to the console.
+- Use standard conventions for indenting nested tags and structuring your CSS. Keep it clean.
+
+### Submitting Your Work
+
+- You will create a team GitHub repository for your work and each submit the link to that repository
+- You will deploy your site to a `gh-pages` branch.
+- In the README of this repository, you'll include the link to the site that you've built. Use your README as an opportunity to document your submission, using markdown for basic formatting.
+- In your Canvas submission, describe the parts of the work that you did on this assignment.
 
 ---
 
@@ -56,4 +76,4 @@ OPTIONAL: Add some JavaScript functionality! Get creative, but make sure the sty
 
 Submit: You'll be committing regularly and working on branches for additional Git practice. Submit the link to your most recent pull request into the Canvas assignment.
 
-### Remember, this assignment is due at 11:59p tonight, Friday 5/20!!!
+### This assignment is due at 11:59p Sunday night!!!
