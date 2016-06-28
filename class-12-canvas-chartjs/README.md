@@ -4,7 +4,7 @@
 #### Quiz 7 will be published this afternoon, and will be due tomorrow (Wednesday) night.
 
 - Announcements
-  - Tuesday = Day O' Meetings. Sam, Nick and Brian will be in a meeting noon-1:00 and will need to roll in some breaks during the 1:00 hour. In addition, Sam has meetings scheduled 3:30-4:30 this afternoon.
+  - Tuesday = Day O' Meetings. Sam, Nick and Brian will be in a meeting noon-1:00 and will need to roll in some breaks afterward. In addition, Sam has meetings scheduled 3:30-4:30 this afternoon.
   - Project Week is getting closer! Here are some more sample projects to look at:
     - [Sasquatch Dice](http://mmailman.github.io/dice-game/)
     - [OnTrack](http://jeffgebhardt.github.io/on-track/)
