@@ -18,3 +18,7 @@ button {
 .inline-p {
   display: inline;
 }
+
+canvas {
+  outline: 2px solid black;
+}

@@ -8,9 +8,6 @@ var totalVotes = 0;
 var songChart;
 var chartDrawn = false;
 
-// Arrays to hold data for the chart
-var votes = [];
-var titles = [];
 
 // ++++++++++++++++++++++++++++++++++++++++++++
 // DATA - Constructor and instances
@@ -32,6 +29,9 @@ var starfishandcoffee = new Song('Starfish and Coffee', 0, 'starfish');
 // ++++++++++++++++++++++++++++++++++++++++++++
 // FUNCTION DECLARATIONS
 // ++++++++++++++++++++++++++++++++++++++++++++
+// Arrays to hold data for the chart
+var votes = [];
+var titles = [];
 
 function updateChartArrays() {
   for (var i = 0; i < allSongs.length; i++) {
@@ -90,19 +90,19 @@ var data = {
 function drawChart() {
   var ctx = document.getElementById('funky-chart').getContext('2d');
   songChart = new Chart(ctx,{
-    type: 'bar',
+    type: 'radar',
     data: data,
     options: {
       responsive: false
     },
     scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true,
-                    stepSize: 1.0
-                }
-            }]
+      yAxes: [{
+        ticks: {
+          beginAtZero: true,
+          stepSize: 0.1
         }
+      }]
+    }
   });
   chartDrawn = true;
 }
