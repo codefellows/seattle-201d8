@@ -90,17 +90,14 @@ var data = {
 function drawChart() {
   var ctx = document.getElementById('funky-chart').getContext('2d');
   songChart = new Chart(ctx,{
-    type: 'radar',
+    type: 'bar',
     data: data,
     options: {
-      responsive: false
+      responsive: true
     },
     scales: {
       yAxes: [{
-        ticks: {
-          beginAtZero: true,
-          stepSize: 0.1
-        }
+
       }]
     }
   });

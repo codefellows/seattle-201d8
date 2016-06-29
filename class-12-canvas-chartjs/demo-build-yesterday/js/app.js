@@ -23,17 +23,10 @@ function randIndex() {
   return Math.floor(Math.random() * allProducts.length);
 }
 
-function checkAgainstPrior(newIndex){
-  while(newIndex === currentIndicies[0] || newIndex === currentIndicies[1] || newIndex === currentIndicies[2]) {
-    newIndex = randIndex();
-    // console.log('new index matched a prior image');
-  }
-}
-
 function makeThreeIndices(){
 
   var leftIndex = randIndex();
-  // console.log('prior indicies', currentIndicies);
+  priorIndicies = currentIndicies;
   while(leftIndex === currentIndicies[0] || leftIndex === currentIndicies[1] || leftIndex === currentIndicies[2]) {
     leftIndex = randIndex();
     // console.log('left index matched a prior image');
@@ -52,9 +45,7 @@ function makeThreeIndices(){
     rightIndex = randIndex();
     // console.log('right index matched a prior image');
   }
-
   currentIndicies = [leftIndex, centerIndex, rightIndex];
-  // console.log('current indicies at end of function', currentIndicies);
   return currentIndicies;
 }
 
@@ -87,3 +78,18 @@ function handlePicContainerClick() {
 picContainer.addEventListener('click', handlePicContainerClick);
 
 displayPics();
+
+for (var tests = 0; tests < 10000; tests++) {
+  testIndicies = makeThreeIndices();
+  console.log(tests + 1, 'tests');
+  console.log(priorIndicies, testIndicies);
+  for (var i = 0; i < 3; i++) {
+    for (var j = 0; j < 3; j++) {
+      console.log(priorIndicies[i], testIndicies[j]);
+      if (priorIndicies[i] === testIndicies[j]) {
+        alert('ERROR');
+      }
+    }
+  }
+  console.log('no error');
+}
