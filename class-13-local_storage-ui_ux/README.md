@@ -5,7 +5,7 @@
 
 #### Quiz 8 will be published tomorrow afternoon, and will be due Friday night at 11:59pm.
 
-#### On Friday afternoon we'll publish the entrance exam for Code 301, which doubles as the final exam for this course, and it will be due by Monday night by 11:59pm. Do take this exam even if you are not planning to go to Code 301 right away, as it is part of your grade for this course. The exam is a bit different from the quizzes for multiple reasons:
+On Friday afternoon we'll publish the entrance exam for Code 301, which doubles as the final exam for this course, and it will be due by Monday night by 11:59pm. Do take this exam even if you are not planning to go to Code 301 right away, as it is part of your grade for this course. The exam is a bit different from the quizzes for multiple reasons:
 
 1. It is longer: 25 questions. (Still all multiple-guess, at least)
 2. It is administered by a company called EdRepublic and is actually their exam mechanism embedded in Canvas, so it is going to look a little different.
