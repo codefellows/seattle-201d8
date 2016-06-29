@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#display {
+  display: flex;
+  justify-content: space-around;
+}
+
+#chart-section {
+  width: 500px;
+}
