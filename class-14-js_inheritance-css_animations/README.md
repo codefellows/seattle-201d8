@@ -37,9 +37,7 @@ We're going to explore some advanced JS topics with *Eloquent JavaScript* and ot
 <a id="css"></a>
 ## CSS Animations
 
-Just a quick look at these, and how easy they are to integrate into your projects. Following links are from last night's reading assignments:
-
-
+Brian's demo: http://codepen.io/briannations/pen/xOdGAz
 
 [-top-](#top)
 
@@ -57,15 +55,18 @@ Teamwork in Git is a whole other animal. Let's talk about it.
 
 Here are the pitches from yesterday. Any others?
 
-- UMA, COREY, BOB, JENNIFER Memory game with cards: start w subset facedown, open a few random, give user a few secs to look, close, then user recalls which were shown where. Track user progress over iterations. Degrees of difficulty involving # of cards and time see cards
+- Liz: Game, personal assistant. ***HALet*** personal valet, map + home integration. Time limit to go shut down things in the room.
 
-- JORGE, JED, JMEGAN, JP: Game: tern-based combat game; attack, defense, heal buttons, choose weapons/technique; increasing difficulty; visuals? canvas/CSS
+- Derek: Yeah 2200, you;re an asteroid miner. Asteroids interface in a \<canvas>, navigate around to find stuff. Concerns w game library
 
-- BEARKITTY, JOHN, BISHOP, DYLAN: Happy Hour guide to plot a pub crawl that would be indexed by neighborhood, time, etc.
+- Doug: NACHOS FTMFW. Design/compare plates of nachos. Nacho builder.
 
-- John: film distribution (YouTube vs Netflix vs Hulu) aggregation (Netflix for )
+- Val: Service website for homeless dental care. Clinics are mobile, schedules sporadic, ppl on the streets don't have intartubez, input form for clinic sked info, site would list closest clinics, SMS to the "ObamaPhones".
 
-- Michael: Pleasant urban biking; grade, traffic, shortest; Data viz of City/maps stuff; Speed/ distance/ traffic; How would a user interact? Investigate more
+David 1: Eat Fellows - Local Yelp to Seattle Center CF campus. Reviews and whatnot. Classic classic awesome project.
 
+David 2: Blackjack - game logic, visual part? keep track of stats, cash, high scores, longest winning run, basic CSS animations, etc.
+
+Alison: Language learning? (Lush-o-tsetse) Count to 10, etc. Teach someone an alphabet. HTML5 audio?
 
 [-top-](#top)
