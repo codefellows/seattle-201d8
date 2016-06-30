@@ -60,5 +60,18 @@ Let's learn about local storage!
 
 Let's hear the first round of project pitches! We'll keep track of them in this document.
 
+- Liz: Game, personal assistant. ***HALet*** personal valet, map + home integration. Time limit to go shut down things in the room.
+
+- Derek: Yeah 2200, you;re an asteroid miner. Asteroids interface in a \<canvas>, navigate around to find stuff. Concerns w game library
+
+- Doug: NACHOS FTMFW. Design/compare plates of nachos. Nacho builder.
+
+- Val: Service website for homeless dental care. Clinics are mobile, schedules sporadic, ppl on the streets don't have intartubez, input form for clinic sked info, site would list closest clinics, SMS to the "ObamaPhones".
+
+David 1: Eat Fellows - Local Yelp to Seattle Center CF campus. Reviews and whatnot. Classic classic awesome project.
+
+David 2: Blackjack - game logic, visual part? keep track of stats, cash, high scores, longest winning run, basic CSS animations, etc.
+
+Alison: Language learning? (Lush-o-tsetse) Count to 10, etc. Teach someone an alphabet. HTML5 audio
 
 [-top-](#top)
