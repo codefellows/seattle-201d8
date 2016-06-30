@@ -63,10 +63,10 @@ Here are the pitches from yesterday. Any others?
 
 - Val: Service website for homeless dental care. Clinics are mobile, schedules sporadic, ppl on the streets don't have intartubez, input form for clinic sked info, site would list closest clinics, SMS to the "ObamaPhones".
 
-David 1: Eat Fellows - Local Yelp to Seattle Center CF campus. Reviews and whatnot. Classic classic awesome project.
+- David 1: Eat Fellows - Local Yelp to Seattle Center CF campus. Reviews and whatnot. Classic classic awesome project.
 
-David 2: Blackjack - game logic, visual part? keep track of stats, cash, high scores, longest winning run, basic CSS animations, etc.
+- David 2: Blackjack - game logic, visual part? keep track of stats, cash, high scores, longest winning run, basic CSS animations, etc.
 
-Alison: Language learning? (Lush-o-tsetse) Count to 10, etc. Teach someone an alphabet. HTML5 audio?
+- Alison: Language learning? (Lush-o-tsetse) Count to 10, etc. Teach someone an alphabet. HTML5 audio?
 
 [-top-](#top)
