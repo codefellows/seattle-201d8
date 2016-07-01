@@ -53,7 +53,7 @@ For the purposes of this exercise, the work you're doing on a feature consists o
 
 Bob and Carol get their feature finished and do a A-C-P of their branch from Carol's laptop and make a PR. Ted & Alice review the feature, deem that it is good and subsequently merge it. Ted & Alice then do a `git pull origin master` into their feature branch on Ted's laptop ONLY and continue working on that feature.
 
-In the meantime, Bob & Carol have switched to Carol's laptop, started a new feature branch in `APP_JS.md`, and started working on it. They did not do a `git pull origin master` and will live to regret it. They finish that feature at the same time that Ted & Alice finish their feature. Each team does an A-C-P and makes a PR. They review each other's PRs and attempt to merge them.
+In the meantime, Bob & Carol have switched to Bob's laptop, started a new feature branch in `APP_JS.md`, and started working on it. They did not do a `git pull origin master` and will live to regret it. They finish that feature at the same time that Ted & Alice finish their feature. Each team does an A-C-P and makes a PR. They review each other's PRs and attempt to merge them.
 
 Chaos ensues. Try to get it sorted out, referring to the instructions on the Git workflow document in the class repo. Get everyone's individual laptop back in sync by doing a `git pull origin master` into `master` until Git stops complaining.
 

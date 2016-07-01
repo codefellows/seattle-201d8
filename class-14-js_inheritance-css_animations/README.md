@@ -55,7 +55,7 @@ Teamwork in Git is a whole other animal. Let's talk about it.
 
 Here are the pitches from yesterday. Any others?
 
-- Liz: Game, personal assistant. ***HALet*** personal valet, map + home integration. Time limit to go shut down things in the room.
+- Liz: Game, personal assistant. ***HALet*** personal valet, map + home integration. Time limit to go shut down things in the room. Erica sez reminds her of a text-based game on how to live through a crash on a planet (sort of a "choose you own adventure" thing)
 
 - Derek: Yeah 2200, you;re an asteroid miner. Asteroids interface in a \<canvas>, navigate around to find stuff. Concerns w game library
 
@@ -63,10 +63,22 @@ Here are the pitches from yesterday. Any others?
 
 - Val: Service website for homeless dental care. Clinics are mobile, schedules sporadic, ppl on the streets don't have intartubez, input form for clinic sked info, site would list closest clinics, SMS to the "ObamaPhones".
 
-David 1: Eat Fellows - Local Yelp to Seattle Center CF campus. Reviews and whatnot. Classic classic awesome project.
+- David 1: Eat Fellows - Local Yelp to Seattle Center CF campus. Reviews and whatnot. Classic classic awesome project.
 
-David 2: Blackjack - game logic, visual part? keep track of stats, cash, high scores, longest winning run, basic CSS animations, etc.
+- David 2: Blackjack - game logic, visual part? keep track of stats, cash, high scores, longest winning run, basic CSS animations, etc.
 
-Alison: Language learning? (Lush-o-tsetse) Count to 10, etc. Teach someone an alphabet. HTML5 audio?
+- Alison: Language learning? (Lush-o-tsetse) Count to 10, etc. Teach someone an alphabet. HTML5 audio?
+
+- Kaylyn 1: Hiking - WA, OR, ID, find a list of hikes, a list based on filters, maybe include a maps thing, simulation of a blog to comment, share photos, review page, HTML5 has a getLocation() that is not too lengthy, maybe gamify it with LAT/LON data for the trail endings
+
+- Kaylyn 2: Volunteering opportunities by categories, an events calendar, links, maps, etc., reviews / bulletin board / forums
+
+## Teams
+
+NACHOS: Doug, Dylan, Sean, Kaylyn
+
+EAT FELLOWS: David, Logan, Erika, Val
+
+LANGUAGE: Alison, Aziza, Liz, Derek
 
 [-top-](#top)
