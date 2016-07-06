@@ -11,7 +11,7 @@ Now that your project is launched, here's how to organize the development effort
 
 This should be a huge day of productivity, with tons of code written and projects truly beginning to take shape. A few helpful safety tips:
 
- 1. Be deliberate and careful with Git. Stick to the plans and processes you set out Monday. Know that there will be glitches that happen, particularly merge conflicts. No worries, just resolve them as they appear.
+ 1. Be deliberate and careful with Git. Stick to the plans and processes you set out Friday (or over the weekend). Know that there will be glitches that happen, particularly merge conflicts. No worries, just resolve them as they appear.
 
  2. Don't forget that pair programming is a great way to keep things moving forward and to keep everyone on the team engaged and fresh.
 
